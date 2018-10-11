@@ -12,7 +12,6 @@ public class StreamTest5 {
 	@Test
 	public void testMap() {
 		String[] strings = {"yes","Yes", "no", "No", "Yes"};
-		
 		Arrays.stream(strings).map(String::toUpperCase)
 		.forEach(System.out::println);
 	}
