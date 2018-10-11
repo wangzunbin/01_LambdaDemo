@@ -2,11 +2,7 @@ package com.wangzunbin.stream;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
-
-import javax.security.auth.x500.X500Principal;
 
 import org.junit.Test;
 

@@ -33,5 +33,11 @@ public class Film {
 	public void setActors(List<Actor> actors) {
 		this.actors = actors;
 	}
+
+	@Override
+	public String toString() {
+		return "Film [name=" + name + ", boxoffice=" + boxoffice + ", actors=" + actors + "]";
+	}
+	
 	
 }

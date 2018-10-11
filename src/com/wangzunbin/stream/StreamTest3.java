@@ -1,10 +1,7 @@
 package com.wangzunbin.stream;
 
-import java.nio.file.Path;
-import java.nio.file.attribute.UserPrincipal;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.UnaryOperator;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
